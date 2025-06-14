@@ -14,8 +14,10 @@ from ExtractorVideos import answer_question
 # ──────────────────────────────  FastAPI  ──────────────────────────────
 app = FastAPI(
     title="YouTube-QA API",
-    description="Devuelve respuestas de IA basadas en la transcripción del vídeo.",
     version="0.1.0",
+    docs_url=None,           # Desactiva Swagger UI (/docs)
+    redoc_url=None,          # Desactiva ReDoc (/redoc)
+    openapi_url=None,        # Desactiva el JSON de la spec (/openapi.json)
 )
 
 # ──────────────────────────────  CORS  ────────────────────────────────
