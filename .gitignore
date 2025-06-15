@@ -8,6 +8,7 @@ venv/
 
 # Configuración de VSCode
 .vscode/
+test_local.py
 
 # Logs
 *.log
